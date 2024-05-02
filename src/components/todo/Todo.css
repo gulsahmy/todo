@@ -1,0 +1,64 @@
+body{
+  background-color: aqua;
+}
+
+.todo-input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+h2{
+  color: purple;
+  font-size: xx-large;
+}
+
+.add-button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: gray;
+  color: white;
+  border-radius: 15px;
+}
+
+.ok-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.todoText {
+  /* width: 75%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.todo-list {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clear-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: purple;
+  color: white;
+  border-radius: 15px;
+}
+
+.delete-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
